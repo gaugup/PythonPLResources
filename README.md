@@ -9,3 +9,6 @@ Repository for resources on python programming and related frameworks
 
 ## Python List declaration
 - https://careerkarma.com/blog/how-to-initialize-a-list-in-python/
+
+## Pytest: testing for exceptions
+- https://miguendes.me/how-to-check-if-an-exception-is-raised-or-not-with-pytest
