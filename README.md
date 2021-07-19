@@ -12,3 +12,6 @@ Repository for resources on python programming and related frameworks
 
 ## Pytest: testing for exceptions
 - https://miguendes.me/how-to-check-if-an-exception-is-raised-or-not-with-pytest
+
+## Python decorators
+- https://www.freecodecamp.org/news/python-decorators-explained-with-examples/#:~:text=When%20to%20Use%20a%20Decorator%20in%20Python%20You%27ll,to%20run%20the%20same%20code%20on%20multiple%20functions.
