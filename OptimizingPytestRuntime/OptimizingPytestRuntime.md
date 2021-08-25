@@ -8,11 +8,41 @@ I treat slow tests as a form of technical debt which eventually catches up with 
 
 Being a python developer, I run most tests using pytest testing framework. The pytest testing framework provides many extensions using which we can run the tests in parallel, enforce failing of tests if the tests exceed a particular time limit and also helps in logging of run time of the tests. I found these capabilities in pytest particularly useful in debugging which tests longer to run and save time while running a whole suit of tests. 
 
-So get started is learning about the aforementioned  pytest extensions, let's look at a sample test file which contains a few slow tests. Below is the sample test file:-
-![PytestSampleCode](images/test_pytest.png)
+So get started on learning about the aforementioned  pytest extensions, let's look at a sample test file which contains a few slow tests. Below is the sample test file:-
+```python
+import time
+
+
+class Test:
+
+    def test_fastest(self):
+        time.sleep(5)
+        assert True
+
+    def test_slow(self):
+        time.sleep(40)
+        assert True
+
+    def test_slowest(self):
+        time.sleep(100)
+        assert True
+
+```
 
 When we run the tests in this file using pytest, we see a runtime of roughly 140 seconds.
-![PytestSerialExecution](images/serial_execution.png)
+
+```c
+pytest test_pytest.py
+==================================================== test session starts ====================================================
+platform win32 -- Python 3.6.12, pytest-6.2.4, py-1.10.0, pluggy-0.13.1
+rootdir: C:\Users\gaugup\Documents\WRITE UPS\Pytest
+collected 3 items
+
+test_pytest.py ...                                                                                                     [100%]
+
+=============================================== 3 passed in 145.07s (0:02:25) ===============================================
+
+```
 
 
 
