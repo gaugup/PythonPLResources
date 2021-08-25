@@ -29,7 +29,7 @@ class Test:
 
 ```
 
-When we run the tests in this file using pytest, we see a runtime of roughly 140 seconds.
+When we run the tests in this file using pytest, we see a runtime of roughly 140 seconds. 140 seconds is a lot for running three tests using pytest!
 
 ```c
 pytest test_pytest.py
@@ -44,5 +44,23 @@ test_pytest.py ...                                                              
 
 ```
 
+## Running tests in parallel
+pytest provides the extension [pytest-xdist](https://pypi.org/project/pytest-xdist/). This plugin extension allows us to run python tests in parallel. You can install `pytest-xdist` using pip in your python environment.
 
+```c
+pip install pytest-xdist
+```
 
+We can now run the above tests in parallel using the following command line option:-
+
+```c
+pytest -n 3 test_pytest.py
+==================================================== test session starts ====================================================
+platform win32 -- Python 3.6.12, pytest-6.2.3, py-1.10.0, pluggy-0.13.1
+rootdir: C:\Users\gaugup\Documents\WRITE UPS\Pytest
+plugins: forked-1.3.0, timeout-1.4.2, xdist-2.3.0
+gw0 [3] / gw1 [3] / gw2 [3]
+...                                                                                                                    [100%]
+=============================================== 3 passed in 101.46s (0:01:41) ===============================================
+```
+From the above execution of the three tests took about 100 seconds. The pytest framework was able to spin up three workers and run each of the three tests in parallel on each worker, thus optimizing the total run time. 
