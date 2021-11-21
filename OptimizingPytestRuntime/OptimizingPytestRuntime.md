@@ -44,7 +44,10 @@ test_pytest.py ...                                                              
 
 ```
 
+## Finding the most time consuming tests
+
 ## Running tests in parallel
+Show how time reduces with increasing number of workers
 pytest provides the extension [pytest-xdist](https://pypi.org/project/pytest-xdist/). This plugin extension allows us to run python tests in parallel. You can install `pytest-xdist` using pip in your python environment.
 
 ```c
@@ -63,4 +66,8 @@ gw0 [3] / gw1 [3] / gw2 [3]
 ...                                                                                                                    [100%]
 =============================================== 3 passed in 101.46s (0:01:41) ===============================================
 ```
-From the above execution of the three tests took about 100 seconds. The pytest framework was able to spin up three workers and run each of the three tests in parallel on each worker, thus optimizing the total run time. 
+From the above execution of the three tests took about 100 seconds. The pytest framework was able to spin up three workers and run each of the three tests in parallel on each worker, thus optimizing the total run time.
+
+## Using fixtures to reduce recomputation burden
+
+## Adding timeout on tests
