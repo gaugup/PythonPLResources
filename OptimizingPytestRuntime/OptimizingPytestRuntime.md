@@ -68,6 +68,4 @@ gw0 [3] / gw1 [3] / gw2 [3]
 ```
 From the above execution of the three tests took about 100 seconds. The pytest framework was able to spin up three workers and run each of the three tests in parallel on each worker, thus optimizing the total run time.
 
-## Using fixtures to reduce recomputation burden
-
 ## Adding timeout on tests
