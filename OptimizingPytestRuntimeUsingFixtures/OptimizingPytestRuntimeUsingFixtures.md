@@ -1,0 +1,3 @@
+# Improving python test time using pytest fixtures
+
+`pytest`(https://docs.pytest.org/en/6.2.x/) is a powerful test framework to write tests for your python application. We know that tests for any python application can take significant time to execute. Some of the python tests could depend on fetching data from a remote server or doing similar operations which leads to longer execution times. Thankfully, the `pytest` testing framework allows us to optimize certain time consuming tasks that your python tests require. The `pytest` testing framework provides 'fixtures'. 
