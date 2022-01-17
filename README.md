@@ -18,3 +18,6 @@ Repository for resources on python programming and related frameworks
 
 ## Useful flake8 extensions
 - https://github.com/DmytroLitvinov/awesome-flake8-extensions
+
+## Advanced Python programming concepts
+- https://betterprogramming.pub/must-know-python-concepts-for-experienced-developers-4554ceea3d95?gi=1b8acc80e46
