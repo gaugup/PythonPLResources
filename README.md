@@ -21,3 +21,6 @@ Repository for resources on python programming and related frameworks
 
 ## Advanced Python programming concepts
 - https://betterprogramming.pub/must-know-python-concepts-for-experienced-developers-4554ceea3d95?gi=1b8acc80e46
+
+## Python lambda expressions to sort complex lists
+- https://www.adamsmith.haus/python/answers/how-to-sort-a-list-with-a-lambda-expression-in-python
