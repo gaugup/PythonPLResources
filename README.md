@@ -24,3 +24,6 @@ Repository for resources on python programming and related frameworks
 
 ## Python lambda expressions to sort complex lists
 - https://www.adamsmith.haus/python/answers/how-to-sort-a-list-with-a-lambda-expression-in-python
+
+## Python `ord()` and `chr()` functions
+- https://datagy.io/python-ord-chr/
