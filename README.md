@@ -27,3 +27,7 @@ Repository for resources on python programming and related frameworks
 
 ## Python `ord()` and `chr()` functions
 - https://datagy.io/python-ord-chr/
+
+## Flask Server in Python
+- https://scoutapm.com/blog/python-flask-tutorial-getting-started-with-flask
+- https://www.digitalocean.com/community/tutorials/processing-incoming-request-data-in-flask
