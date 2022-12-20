@@ -34,3 +34,6 @@ Repository for resources on python programming and related frameworks
 
 ## Different ways of getting python versions
 - https://github.com/gaugup/PythonPLResources/blob/main/WaysToGetPythonVersion/WaysToGetPythonVersion.md
+
+## Optimizing pytest runtime
+- https://github.com/gaugup/PythonPLResources/blob/main/OptimizingPytestRuntime/OptimizingPytestRuntime.md
