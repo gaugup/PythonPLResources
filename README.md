@@ -5,7 +5,7 @@ Repository for resources on python programming and related frameworks
 - [Setting up python CI via pip using Github actions](https://docs.github.com/en/actions/guides/building-and-testing-python)
 - [Setting up python CI via conda using Github actions](https://autobencoder.com/2020-08-24-conda-actions/)
 
-## Python programming resources
+## Programming resources
 - [Python List declaration](https://careerkarma.com/blog/how-to-initialize-a-list-in-python/)
 - [Python decorators](https://www.freecodecamp.org/news/python-decorators-explained-with-examples/#:~:text=When%20to%20Use%20a%20Decorator%20in%20Python%20You%27ll,to%20run%20the%20same%20code%20on%20multiple%20functions)
 - [Different ways of getting python versions](https://github.com/gaugup/PythonPLResources/blob/main/WaysToGetPythonVersion/WaysToGetPythonVersion.md)
@@ -24,3 +24,6 @@ Repository for resources on python programming and related frameworks
 - Flask Server in Python
   - [link](https://scoutapm.com/blog/python-flask-tutorial-getting-started-with-flask)
   - [link](https://www.digitalocean.com/community/tutorials/processing-incoming-request-data-in-flask)
+
+## Performance analysis and Tuning
+- [Python Performance Resources](https://github.com/gaugup/PythonPerformanceResources)
