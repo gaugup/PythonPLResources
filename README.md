@@ -2,7 +2,7 @@
 Repository for resources on python programming and related frameworks
 
 ## Github actions
-- [Setting up python CI via pip using Github actions](https://docs.github.com/en/actions/guides/building-and-testing-python)
+- [Setting up python CI via pip using Github actions](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python)<!-- markdown-link-check-disable-line -->
 - [Setting up python CI via conda using Github actions](https://autobencoder.com/2020-08-24-conda-actions/)
 
 ## Programming resources
