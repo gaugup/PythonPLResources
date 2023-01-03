@@ -1,3 +1,5 @@
+[![Link check](https://github.com/gaugup/PythonPLResources/actions/workflows/linkcheck.yml/badge.svg)](https://github.com/gaugup/PythonPLResources/actions/workflows/linkcheck.yml)
+
 # Python Programming Language Resources
 Repository for resources on python programming and related frameworks
 
