@@ -29,3 +29,6 @@ Repository for resources on python programming and related frameworks
 
 ## Performance analysis and Tuning
 - [Python Performance Resources](https://github.com/gaugup/PythonPerformanceResources)
+
+## Creating a wheel file
+- The `.whl` file of a python package having a `setup.py` can be generated va the command `python setup.py sdist bdist_wheel`. This creates a folder named `dist` which has two files with extensions `.whl` and `.tar.gz`.
