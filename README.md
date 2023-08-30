@@ -21,6 +21,7 @@ Repository for resources on python programming and related frameworks
 
 ## Linting
 - [Useful flake8 extensions](https://github.com/DmytroLitvinov/awesome-flake8-extensions)
+- [How to create flake8 plugin](https://flake8.pycqa.org/en/latest/plugin-development/index.html)
 
 ## Microservices
 - Flask Server in Python
